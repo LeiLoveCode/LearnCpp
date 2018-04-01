@@ -1,2 +1,2 @@
 #pragma once
-void OutputVector();
+void BasicVector();

@@ -1,6 +1,5 @@
-﻿  vector.cpp
-c:\users\chenl\documents\chenlei\learncpp\learncpp\outputvector\outputvector\vector.cpp(31): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
-  main.cpp
+﻿  main.cpp
+  GridData.cpp
   正在生成代码...
   outputVector.vcxproj -> C:\Users\chenl\Documents\chenlei\learnCpp\LearnCpp\outputVector\Debug\outputVector.exe
   outputVector.vcxproj -> C:\Users\chenl\Documents\chenlei\learnCpp\LearnCpp\outputVector\Debug\outputVector.pdb (Partial PDB)

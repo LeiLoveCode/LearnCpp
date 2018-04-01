@@ -6,7 +6,7 @@
 //begin() 函数返回一个指向向量开头的迭代器。
 //end() 函数返回一个指向向量末尾的迭代器。
 
-void OutputVector()
+void BasicVector()
 {
 	//创建一个double类型的vector容器，名字叫ExOutput
 	std::vector<double> ExOutput;
@@ -38,4 +38,6 @@ void OutputVector()
 		std::cout << *v << "  ";
 
 	}
+	//换行
+	std::cout << std::endl;
 }
