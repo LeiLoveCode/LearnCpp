@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\chenl\desktop\learncpp\outputvector\outputvector\outputvector\main.cpp(34): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+  outputVector.vcxproj -> C:\Users\chenl\Desktop\learnCpp\outputVector\outputVector\Debug\outputVector.exe
+  outputVector.vcxproj -> C:\Users\chenl\Desktop\learnCpp\outputVector\outputVector\Debug\outputVector.pdb (Partial PDB)
