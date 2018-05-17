@@ -110,7 +110,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FileInFeat.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="txtin.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileInFeat.h" />
+    <ClInclude Include="txtin.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

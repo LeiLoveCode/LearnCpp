@@ -38,13 +38,3 @@ double txtin(std::string path)
 
 
 
-
-void main()
-{
-
-	std::string testPath = "in\\test.txt";
-	txtin(testPath);
-
-	system("pause");
-
-}

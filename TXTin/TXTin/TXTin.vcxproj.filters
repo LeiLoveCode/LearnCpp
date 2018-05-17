@@ -18,5 +18,19 @@
     <ClCompile Include="txtin.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="FileInFeat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="txtin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInFeat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

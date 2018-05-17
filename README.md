@@ -13,3 +13,5 @@ cpp学习记录
 ## 文件的读取和写入
 
 1.根据给定的文件目录按行读取并输出到控制台 		txtin.cpp
+
+2.根据给定的文件目录按行读取，并将每行的内容根据空格分开储存在vector<vector<double>>中      FileInFeat.cpp
