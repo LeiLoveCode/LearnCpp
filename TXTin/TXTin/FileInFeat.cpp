@@ -30,6 +30,16 @@ double FileInFeat(std::string Path) {
 	//如果行不为空，循环读取
 	while (std::getline(ContentIn, temp))
 	{
+
+		//定义一个char类型的变量为每行的第一个字符
+		char IsNote = temp[0];
+		//如果该字符为#，跳过该行
+		if (IsNote == '#')
+		{
+			continue;
+
+		}
+
 		//使用串流实现对string的输入
 		std::stringstream stringin(temp);
 		//清空line的内容准备输入
@@ -56,7 +66,7 @@ double FileInFeat(std::string Path) {
 		i != line_all.end();
 		i++)
 	{
-		for (int j=0;
+		for (unsigned int j=0;//在vector中的size()项目中为unsigned int类型，定义为int类型会出现警告
 			j <(*i).size();
 			j++)
 		{

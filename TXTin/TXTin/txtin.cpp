@@ -22,6 +22,15 @@ double txtin(std::string path)
 	//如果行不为空，循环读取
 	while (std::getline(ContentIn,temp))
 	{
+		//定义一个char类型的变量为每行的第一个字符
+		char IsNote = temp[0];
+		//如果该字符为#，跳过该行
+		if (IsNote == '#')
+		{
+			continue;
+
+		}
+
 		//输出该行数据
 		std::cout << temp << std::endl;
 
